@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js">
+<![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js">
+<![endif]-->
+<!--[if !IE]>
+<!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Metronic | Dashboard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+
+        <!-- ztree 树状菜单 -->
+        <link rel="stylesheet" href="../assets/phone/css/plugins/metroStyle/metroStyle.css">
+        <link rel="stylesheet" href="../assets/phone/css/phone.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+            <!-- BEGIN HEADER -->
+            <div class="page-header navbar navbar-fixed-top">
+                <!-- BEGIN HEADER INNER -->
+                <div class="page-header-inner ">
+                    <!-- BEGIN LOGO -->
+                    <div class="page-logo">
+                        <a href="index.html">
+                            <img src="../assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" />
+                        </a>
+                        <div class="menu-toggler sidebar-toggler"></div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout/img/avatar3_small.jpg" />
+                                    <span class="username username-hide-on-mobile">Nick</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-default">
+                                    <li>
+                                        <a href="page_user_profile_1.html">
+                                            <i class="icon-user"></i>
+                                            My Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app_calendar.html">
+                                            <i class="icon-calendar"></i>
+                                            My Calendar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app_inbox.html">
+                                            <i class="icon-envelope-open"></i>
+                                            My Inbox
+                                            <span class="badge badge-danger">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app_todo.html">
+                                            <i class="icon-rocket"></i>
+                                            My Tasks
+                                            <span class="badge badge-success">7</span>
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="page_user_lock_1.html">
+                                            <i class="icon-lock"></i>
+                                            Lock Screen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="page_user_login_1.html">
+                                            <i class="icon-key"></i>
+                                            Log Out
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-quick-sidebar-toggler">
+                                <a href="javascript:;" class="dropdown-toggle">
+                                    <i class="icon-logout"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU --> </div>
+                <!-- END HEADER INNER --> </div>
+            <!-- END HEADER -->
+            <!-- BEGIN HEADER & CONTENT DIVIDER -->
+            <div class="clearfix"></div>
+            <!-- END HEADER & CONTENT DIVIDER -->
+            <!-- BEGIN CONTAINER -->
+            <div class="page-container">
+                <!-- BEGIN SIDEBAR -->
+                <div class="page-sidebar-wrapper">
+                    <!-- BEGIN SIDEBAR -->
+                    <div class="page-sidebar navbar-collapse collapse">
+                        <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                            <li class="sidebar-toggler-wrapper hide">
+                                <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                                <div class="sidebar-toggler"></div>
+                                <!-- END SIDEBAR TOGGLER BUTTON -->
+                            </li>
+                            <li class="sidebar-search-wrapper">
+                                <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+                                <form class="sidebar-search  " action="page_general_search_3.html" method="POST">
+                                    <a href="javascript:;" class="remove">
+                                        <i class="icon-close"></i>
+                                    </a>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search...">
+                                        <span class="input-group-btn">
+                                            <a href="javascript:;" class="btn submit">
+                                                <i class="icon-magnifier"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </form>
+                                <!-- END RESPONSIVE QUICK SEARCH FORM --> </li>
+                            <li class="nav-item start">
+                                <a href="index.html" class="nav-link nav-toggle">
+                                    <i class="fa fa-home"></i>
+                                    <span class="title">控制台</span>
+                                    <span class="selected"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item  active open">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="fa fa-qrcode"></i>
+                                    <span class="title">二维码管理</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  active open">
+                                        <a href="2Dbarcode.html" class="nav-link ">
+                                            <span class="title">印刷二维码</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="fa fa-recycle"></i>
+                                    <span class="title">溯源管理</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="traceability-class.html" class="nav-link ">
+                                            <span class="title">品类管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="traceability-user.html" class="nav-link ">
+                                            <span class="title">记录人员管理</span>
+                                            <span class="badge badge-danger">2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="fa fa-sun-o"></i>
+                                    <span class="title">环境检测管理</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="detection-setting.html" class="nav-link ">
+                                            <span class="title">
+                                                检测地址配置</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="detection-statistics.html" class="nav-link ">
+                                            <span class="title">
+                                                检测数据统计</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="fa fa-cogs"></i>
+                                    <span class="title">系统管理</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="elements_steps.html" class="nav-link ">
+                                            <span class="title">用户管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="elements_lists.html" class="nav-link ">
+                                            <span class="title">角色管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="elements_ribbons.html" class="nav-link ">
+                                            <span class="title">页面缓存</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="elements_ribbons.html" class="nav-link ">
+                                            <span class="title">权限菜单</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- END SIDEBAR MENU -->
+                        <!-- END SIDEBAR MENU -->
+                    </div>
+                    <!-- END SIDEBAR -->
+                </div>
+                <!-- END SIDEBAR -->
+                <!-- BEGIN CONTENT -->
+                <div class="page-content-wrapper">
+                    <!-- BEGIN CONTENT BODY -->
+                    <div class="page-content" style="min-height:1112px">
+                        <!-- BEGIN PAGE HEADER-->
+                        <!-- BEGIN THEME PANEL -->
+                        <div class="theme-panel hidden-xs hidden-sm">
+                            <div class="toggler"> </div>
+                            <div class="toggler-close"> </div>
+                            <div class="theme-options">
+                                <div class="theme-option theme-colors clearfix">
+                                    <span>主题模板</span>
+                                    <ul>
+                                        <li class="color-default current tooltips" data-style="default" data-container="body" data-original-title="Default"></li>
+                                        <li class="color-darkblue tooltips" data-style="darkblue" data-container="body" data-original-title="Dark Blue"></li>
+                                        <li class="color-blue tooltips" data-style="blue" data-container="body" data-original-title="Blue"></li>
+                                        <li class="color-grey tooltips" data-style="grey" data-container="body" data-original-title="Grey"></li>
+                                        <li class="color-light tooltips" data-style="light" data-container="body" data-original-title="Light"></li>
+                                        <li class="color-light2 tooltips" data-style="light2" data-container="body" data-html="true" data-original-title="Light 2"></li>
+                                    </ul>
+                                </div>
+                                <div class="theme-option">
+                                    <span>主题颜色</span>
+                                    <select class="layout-style-option form-control input-sm">
+                                        <option value="square" selected="selected">正方主题</option>
+                                        <option value="rounded">圆角主题</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>页面布局</span>
+                                    <select class="layout-option form-control input-sm">
+                                        <option value="fluid" selected="selected">滚动布局</option>
+                                        <option value="boxed">盒子布局</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>头部菜单</span>
+                                    <select class="page-header-option form-control input-sm">
+                                        <option value="fixed" selected="selected">固定菜单</option>
+                                        <option value="default">滚动菜单</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>头部菜单下拉</span>
+                                    <select class="page-header-top-dropdown-style-option form-control input-sm">
+                                        <option value="light" selected="selected">高亮背景</option>
+                                        <option value="dark">黑色背景</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>菜单导航</span>
+                                    <select class="sidebar-option form-control input-sm">
+                                        <option value="fixed">固定菜单</option>
+                                        <option value="default" selected="selected">滚动菜单</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>二级菜单导航</span>
+                                    <select class="sidebar-menu-option form-control input-sm">
+                                        <option value="accordion" selected="selected">收缩模式</option>
+                                        <option value="hover">滑出模式</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>菜单高度</span>
+                                    <select class="sidebar-style-option form-control input-sm">
+                                        <option value="default" selected="selected">默认高度</option>
+                                        <option value="light">紧凑高度</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>菜单位置</span>
+                                    <select class="sidebar-pos-option form-control input-sm">
+                                        <option value="left" selected="selected">左边菜单</option>
+                                        <option value="right">右边菜单</option>
+                                    </select>
+                                </div>
+                                <div class="theme-option">
+                                    <span>版权位置</span>
+                                    <select class="page-footer-option form-control input-sm">
+                                        <option value="fixed">固定布局</option>
+                                        <option value="default" selected="selected">滚动布局</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END THEME PANEL -->
+                        <!-- BEGIN PAGE BAR -->
+                        <div class="page-bar">
+                            <ul class="page-breadcrumb">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                    <i class="fa fa-circle"></i>
+                                </li>
+                                <li>
+                                    <span>二维码管理</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- END PAGE BAR -->
+                        <!-- BEGIN PAGE TITLE-->
+                        <h3 class="page-title"> 印刷二维码
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portlet light portlet-fit bordered">
+                                    <div class="portlet-body">
+                                        <ul id="treeDemo" class="ztree"></ul>
+                                        <a class="btn btn-sm green btn-block" href="##">新加更目录</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="portlet light portlet-fit bordered">
+                                    <div class="portlet-title clearfix">
+                                        <div class="caption">
+                                            <i class=" icon-layers font-green"></i>
+                                            <span class="caption-subject font-green bold uppercase">共有10个未印刷的二维码（设置为印刷的时候批次记录将不可以删除）</span>
+                                        </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="list-box">
+                                                    <a class="title" href="">安徽芜湖区A1批次有机大米</a>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <img src="../assets/phone/updateimg/20170418182326.png" height="100" width="100" alt="">
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <p class="" style="padding-top:10px;">
+                                                                <span class="label label-sm label-info">共有品类：2个</span>
+                                                            </p>
+                                                            <p>
+                                                                <span class="label label-sm label-info">共有二维码：18000个</span>
+                                                            </p>
+                                                            <p>手机微信扫一扫<br>进行预览</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <a class="btn btn-sm green" href="">编辑</a>
+                                                        <a class="btn btn-sm green" href="">下载表格</a>
+                                                        <a class="btn btn-sm green" href="">设为印刷</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="list-box">
+                                                    <a class="title" href="">安徽芜湖区A1批次有机大米</a>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <img src="../assets/phone/updateimg/20170418182326.png" height="100" width="100" alt="">
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <p class="" style="padding-top:10px;">
+                                                                <span class="label label-sm label-info">共有品类：2个</span>
+                                                            </p>
+                                                            <p>
+                                                                <span class="label label-sm label-info">共有二维码：18000个</span>
+                                                            </p>
+                                                            <p>手机微信扫一扫<br>进行预览</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <a class="btn btn-sm green" href="">编辑</a>
+                                                        <a class="btn btn-sm green" href="">下载表格</a>
+                                                        <a class="btn btn-sm green" href="">设为印刷</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="list-box">
+                                                    <a class="title" href="">安徽芜湖区A1批次有机大米</a>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <img src="../assets/phone/updateimg/20170418182326.png" height="100" width="100" alt="">
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <p class="" style="padding-top:10px;">
+                                                                <span class="label label-sm label-info">共有品类：2个</span>
+                                                            </p>
+                                                            <p>
+                                                                <span class="label label-sm label-info">共有二维码：18000个</span>
+                                                            </p>
+                                                            <p>手机微信扫一扫<br>进行预览</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <a class="btn btn-sm green" href="">查看数据</a>
+                                                        <a class="btn btn-sm green" href="">退回印刷</a>
+                                                    </div>
+                                                    <div class="list-box-mark">
+                                                        <span class="label label-sm label-success">已印刷</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!-- END CONTAINER -->
+            <!-- BEGIN FOOTER -->
+            <div class="page-footer">
+                <div class="page-footer-inner">
+                    2017 &copy; 版权所属.
+                    <a href="" target="_blank">中山市众创云信息科技有限公司</a>
+                </div>
+                <div class="scroll-to-top">
+                    <i class="icon-arrow-up"></i>
+                </div>
+            </div>
+            <!-- END FOOTER -->
+            <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <!-- END THEME LAYOUT SCRIPTS -->
+
+        <!-- tree菜单控件 -->
+        <script src="../assets/phone/scripts/jquery.ztree.all.min.js"></script>
+        <script>
+            var setting = {
+                view: {
+                    addHoverDom: addHoverDom,
+                    removeHoverDom: removeHoverDom,
+                    selectedMulti: false,
+                    showIcon: false
+                },
+                check: {
+                    enable: true
+                },
+                data: {
+                    simpleData: {
+                        enable: true
+                    }
+                },
+                edit: {
+                    enable: true
+                }
+            };
+
+            var zNodes =[
+                { id:1, pId:0, name:"有机大米类", open:true},
+                { id:11, pId:1, name:"安徽有机大米二维码"},
+                { id:12, pId:1, name:"东北一等大米二维码"},
+                { id:13, pId:1, name:"是否是父节点"},
+                { id:2, pId:0, name:"有机面粉系列", open:true},
+                { id:21, pId:2, name:"安徽东乡面粉二维码"},
+                { id:22, pId:2, name:"东北优良面粉二维码"},
+                { id:23, pId:2, name:"宁夏宁南面粉二维码"},
+            ];
+
+            $(document).ready(function(){
+                $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+            });
+
+            var newCount = 1;
+            function addHoverDom(treeId, treeNode) {
+                var sObj = $("#" + treeNode.tId + "_span");
+                if (treeNode.editNameFlag || $("#addBtn_"+treeNode.tId).length>0) return;
+                var addStr = "<span class='button add' id='addBtn_" + treeNode.tId
+                    + "' title='添加分类' onfocus='this.blur();'></span>";
+                sObj.after(addStr);
+                var btn = $("#addBtn_"+treeNode.tId);
+                if (btn) btn.bind("click", function(){
+                    var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+                    zTree.addNodes(treeNode, {id:(100 + newCount), pId:treeNode.id, name:"new node" + (newCount++)});
+                    return false;
+                });
+            };
+            function removeHoverDom(treeId, treeNode) {
+                $("#addBtn_"+treeNode.tId).unbind().remove();
+            };
+        </script>
+</body>
+
+</html>
